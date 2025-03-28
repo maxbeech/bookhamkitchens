@@ -1,8 +1,8 @@
 'use client';
 import React from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import { FaChild, FaUserTie, FaUsers } from 'react-icons/fa';
+import OptimizedImage from '@/components/ui/OptimizedImage';
 
 export default function TennisCoaching() {
   return (
@@ -10,7 +10,7 @@ export default function TennisCoaching() {
       {/* Hero Section */}
       <section className="relative">
         <div className="relative h-[400px] w-full">
-          <Image 
+          <OptimizedImage 
             src="/images/tennis-coaching.jpg" 
             alt="Tennis Coaching at Grafton" 
             fill
@@ -47,7 +47,7 @@ export default function TennisCoaching() {
               </p>
             </div>
             <div className="relative h-[400px]">
-              <Image 
+              <OptimizedImage 
                 src="/images/tennis-coach.jpg" 
                 alt="Grafton Tennis Coach" 
                 fill
@@ -67,7 +67,7 @@ export default function TennisCoaching() {
             {/* Junior Coaching */}
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <div className="relative h-48">
-                <Image 
+                <OptimizedImage 
                   src="/images/junior-tennis.jpg" 
                   alt="Junior Tennis Coaching" 
                   fill
@@ -98,7 +98,7 @@ export default function TennisCoaching() {
             {/* Adult Coaching */}
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <div className="relative h-48">
-                <Image 
+                <OptimizedImage 
                   src="/images/adult-tennis.jpg" 
                   alt="Adult Tennis Coaching" 
                   fill
@@ -128,7 +128,7 @@ export default function TennisCoaching() {
             {/* Private Coaching */}
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <div className="relative h-48">
-                <Image 
+                <OptimizedImage 
                   src="/images/private-coaching.jpg" 
                   alt="Private Tennis Coaching" 
                   fill
@@ -168,7 +168,7 @@ export default function TennisCoaching() {
             {/* Coach 1 */}
             <div className="bg-light rounded-lg shadow-md overflow-hidden">
               <div className="relative h-64">
-                <Image 
+                <OptimizedImage 
                   src="/images/coach-1.jpg" 
                   alt="Head Tennis Coach" 
                   fill
@@ -190,7 +190,7 @@ export default function TennisCoaching() {
             {/* Coach 2 */}
             <div className="bg-light rounded-lg shadow-md overflow-hidden">
               <div className="relative h-64">
-                <Image 
+                <OptimizedImage 
                   src="/images/coach-2.jpg" 
                   alt="Senior Tennis Coach" 
                   fill
@@ -212,7 +212,7 @@ export default function TennisCoaching() {
             {/* Coach 3 */}
             <div className="bg-light rounded-lg shadow-md overflow-hidden">
               <div className="relative h-64">
-                <Image 
+                <OptimizedImage 
                   src="/images/coach-3.jpg" 
                   alt="Tennis Coach" 
                   fill

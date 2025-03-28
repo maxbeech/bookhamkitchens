@@ -25,12 +25,21 @@ export default function AdminPage() {
             <h3 className="text-xl font-semibold text-gray-700 mb-3">Current Image Library</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {/* Display current images */}
-              {[1, 2, 3, 4, 5, 6, 7, 8].map((index) => (
-                <div key={index} className="relative group">
+              {[
+                "tennis-courts.jpg", 
+                "tennis-courts-wide.jpg", 
+                "hero-tennis.jpg", 
+                "club-house.jpg", 
+                "squash-courts.jpg", 
+                "clubhouse-interior.jpg", 
+                "news-1.jpg", 
+                "news-2.jpg"
+              ].map((filename) => (
+                <div key={filename} className="relative group">
                   <div className="aspect-square bg-gray-100 rounded-md overflow-hidden">
                     <img 
-                      src={`/images/tennis-courts${index % 2 ? '-wide' : ''}.jpg`} 
-                      alt={`Library image ${index}`}
+                      src={`/images/${filename}`} 
+                      alt={`Library image ${filename}`}
                       className="w-full h-full object-cover"
                     />
                   </div>

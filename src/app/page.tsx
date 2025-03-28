@@ -1,8 +1,8 @@
 'use client';
 import React from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import { FaArrowRight } from 'react-icons/fa';
+import OptimizedImage from '@/components/ui/OptimizedImage';
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative">
         <div className="relative h-[600px] w-full">
-          <Image 
+          <OptimizedImage 
             src="/images/hero-tennis.jpg" 
             alt="Grafton Tennis and Squash Club courts" 
             fill
@@ -57,7 +57,7 @@ export default function Home() {
               </Link>
             </div>
             <div className="relative h-[400px]">
-              <Image 
+              <OptimizedImage 
                 src="/images/club-house.jpg" 
                 alt="Grafton Tennis and Squash Club clubhouse" 
                 fill
@@ -82,7 +82,7 @@ export default function Home() {
             {/* Tennis Courts */}
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <div className="relative h-48">
-                <Image 
+                <OptimizedImage 
                   src="/images/tennis-courts.jpg" 
                   alt="Tennis courts" 
                   fill
@@ -103,7 +103,7 @@ export default function Home() {
             {/* Squash Courts */}
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <div className="relative h-48">
-                <Image 
+                <OptimizedImage 
                   src="/images/squash-courts.jpg" 
                   alt="Squash courts" 
                   fill
@@ -124,7 +124,7 @@ export default function Home() {
             {/* Clubhouse */}
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <div className="relative h-48">
-                <Image 
+                <OptimizedImage 
                   src="/images/clubhouse-interior.jpg" 
                   alt="Clubhouse interior" 
                   fill
@@ -161,7 +161,7 @@ export default function Home() {
             {[1, 2, 3].map((item) => (
               <div key={item} className="bg-light rounded-lg shadow-sm overflow-hidden">
                 <div className="relative h-48">
-                  <Image 
+                  <OptimizedImage 
                     src={`/images/news-${item}.jpg`} 
                     alt={`News item ${item}`} 
                     fill

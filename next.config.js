@@ -2,8 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['via.placeholder.com'], // Add placeholder domain for development
-    unoptimized: false, // We'll use Next.js image optimization
+    domains: ['via.placeholder.com', 'images.unsplash.com', 'images.pexels.com'], // External domains for development
+    unoptimized: false, // Use Next.js image optimization for better performance
   },
 }
 

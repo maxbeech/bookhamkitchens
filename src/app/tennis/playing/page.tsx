@@ -1,8 +1,8 @@
 'use client';
 import React from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import { FaCalendarAlt, FaUsers, FaTrophy } from 'react-icons/fa';
+import OptimizedImage from '@/components/ui/OptimizedImage';
 
 export default function TennisPlaying() {
   return (
@@ -10,7 +10,7 @@ export default function TennisPlaying() {
       {/* Hero Section */}
       <section className="relative">
         <div className="relative h-[400px] w-full">
-          <Image 
+          <OptimizedImage 
             src="/images/tennis-courts-wide.jpg" 
             alt="Grafton Tennis Courts" 
             fill
@@ -37,7 +37,7 @@ export default function TennisPlaying() {
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
             <div className="relative h-[400px]">
-              <Image 
+              <OptimizedImage 
                 src="/images/tennis-courts.jpg" 
                 alt="Grafton Tennis Courts" 
                 fill
