@@ -37,7 +37,8 @@ module.exports = {
         light: '#f8f9fa',
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        sans: ['var(--font-inter)', 'sans-serif'],
+        serif: ['var(--font-playfair)', 'Georgia', 'serif'],
       },
       animation: {
         'float': 'float 3s ease-in-out infinite',
@@ -61,6 +62,7 @@ module.exports = {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'fox-pattern': "url('/images/fox-logo.svg')",
       },
       boxShadow: {
         'custom': '0 4px 20px rgba(0, 0, 0, 0.1)',
