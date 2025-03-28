@@ -115,16 +115,16 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Enhanced Link Styles */
 .link-hover {
-  @apply inline-flex items-center group hover:text-secondary transition-colors;
+  @apply inline-flex items-center hover:text-secondary transition-colors;
 }
 
 .link-hover .icon {
-  @apply ml-2 group-hover:translate-x-1 transition-transform;
+  @apply ml-2 transition-transform;
 }
 
 /* Image Hover Effects */
 .image-hover {
-  @apply transition-transform duration-500 group-hover:scale-110;
+  @apply transition-transform duration-500;
 }
 
 /* Custom Shadows */
