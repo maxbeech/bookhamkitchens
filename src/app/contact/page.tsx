@@ -145,8 +145,8 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="text-lg font-bold text-primary">Phone</h3>
-                      <a href="tel:+441234567890" className="text-gray-600 hover:text-secondary transition-colors">
-                        01234 567 890
+                      <a href="tel:+441932391183" className="text-gray-600 hover:text-secondary transition-colors">
+                        01932 391183
                       </a>
                     </div>
                   </div>
@@ -158,8 +158,8 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="text-lg font-bold text-primary">Email</h3>
-                      <a href="mailto:info@bookhamkitchens.co.uk" className="text-gray-600 hover:text-secondary transition-colors">
-                        info@bookhamkitchens.co.uk
+                      <a href="mailto:sales@bookhamkitchens.co.uk" className="text-gray-600 hover:text-secondary transition-colors">
+                        sales@bookhamkitchens.co.uk
                       </a>
                     </div>
                   </div>
@@ -172,10 +172,10 @@ export default function ContactPage() {
                     <div>
                       <h3 className="text-lg font-bold text-primary">Showroom</h3>
                       <address className="text-gray-600 not-italic">
-                        123 High Street<br />
+                        25 Church Road<br />
                         Great Bookham<br />
                         Leatherhead<br />
-                        Surrey, KT23 4AB
+                        Surrey, KT23 3PG
                       </address>
                     </div>
                   </div>

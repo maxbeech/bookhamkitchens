@@ -79,13 +79,13 @@ export default function Header() {
               <p>Family-run bespoke kitchen design & installation services in Surrey</p>
             </div>
             <div className="flex items-center space-x-4">
-              <a href="tel:+441234567890" className="flex items-center text-sm hover:text-accent transition-colors">
+              <a href="tel:+441932391183" className="flex items-center text-sm hover:text-accent transition-colors">
                 <FaPhone className="mr-2 h-3 w-3" />
-                <span>01234 567 890</span>
+                <span>01932 391183</span>
               </a>
-              <a href="mailto:info@bookhamkitchens.co.uk" className="flex items-center text-sm hover:text-accent transition-colors">
+              <a href="mailto:sales@bookhamkitchens.co.uk" className="flex items-center text-sm hover:text-accent transition-colors">
                 <FaEnvelope className="mr-2 h-3 w-3" />
-                <span>info@bookhamkitchens.co.uk</span>
+                <span>sales@bookhamkitchens.co.uk</span>
               </a>
             </div>
           </div>
@@ -281,13 +281,13 @@ export default function Header() {
                     Get a Quote
                   </Link>
                   <div className="mt-4 flex flex-col space-y-2">
-                    <a href="tel:+441234567890" className="flex items-center text-sm text-primary hover:text-secondary transition-colors">
+                    <a href="tel:+441932391183" className="flex items-center text-sm text-primary hover:text-secondary transition-colors">
                       <FaPhone className="mr-2 h-3 w-3" />
-                      <span>01234 567 890</span>
+                      <span>01932 391183</span>
                     </a>
-                    <a href="mailto:info@bookhamkitchens.co.uk" className="flex items-center text-sm text-primary hover:text-secondary transition-colors">
+                    <a href="mailto:sales@bookhamkitchens.co.uk" className="flex items-center text-sm text-primary hover:text-secondary transition-colors">
                       <FaEnvelope className="mr-2 h-3 w-3" />
-                      <span>info@bookhamkitchens.co.uk</span>
+                      <span>sales@bookhamkitchens.co.uk</span>
                     </a>
                   </div>
                 </div>

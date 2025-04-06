@@ -586,13 +586,13 @@ export default function Home() {
               </motion.div>
                   
                   <motion.a 
-                    href="tel:+441234567890" 
+                    href="tel:+441932391183" 
                     whileHover={{ scale: 1.05 }} 
                     whileTap={{ scale: 0.98 }}
                     className="inline-flex items-center px-8 py-4 border-2 border-primary text-primary font-medium rounded-md hover:bg-primary/5 transition-colors text-lg"
                   >
                     <FaPhone className="mr-2 h-4 w-4" />
-                    01234 567 890
+                    01932 391183
                   </motion.a>
                 </div>
               </FadeIn>

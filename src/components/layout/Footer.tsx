@@ -171,21 +171,21 @@ export default function Footer() {
               <li className="flex items-start">
                 <FaMapMarkerAlt className="h-5 w-5 text-accent mr-3 mt-1" />
                 <span className="text-gray-300">
-                  123 High Street, Great Bookham<br />
+                  25 Church Road, Great Bookham<br />
                   Leatherhead, Surrey<br />
-                  KT23 4AB
+                  KT23 3PG
                 </span>
               </li>
               <li className="flex items-center">
                 <FaPhoneAlt className="h-4 w-4 text-accent mr-3" />
-                <a href="tel:+441234567890" className="text-gray-300 hover:text-accent transition-colors">
-                  01234 567 890
+                <a href="tel:+441932391183" className="text-gray-300 hover:text-accent transition-colors">
+                  01932 391183
                 </a>
               </li>
               <li className="flex items-center">
                 <FaEnvelope className="h-4 w-4 text-accent mr-3" />
-                <a href="mailto:info@bookhamkitchens.co.uk" className="text-gray-300 hover:text-accent transition-colors">
-                  info@bookhamkitchens.co.uk
+                <a href="mailto:sales@bookhamkitchens.co.uk" className="text-gray-300 hover:text-accent transition-colors">
+                  sales@bookhamkitchens.co.uk
                 </a>
               </li>
             </ul>
