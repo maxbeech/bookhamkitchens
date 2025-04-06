@@ -3,16 +3,23 @@ import type { Metadata } from 'next';
 import './globals.css';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
-import { Inter } from 'next/font/google';
-import { Playfair_Display } from 'next/font/google';
+import { Montserrat, Playfair_Display } from 'next/font/google';
 
-const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
-const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' });
+const montserrat = Montserrat({ 
+  subsets: ['latin'], 
+  variable: '--font-montserrat',
+  display: 'swap',
+});
+const playfair = Playfair_Display({ 
+  subsets: ['latin'], 
+  variable: '--font-playfair',
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
-  title: 'Grafton Tennis and Squash Club | Est. 1888',
-  description: 'Grafton Tennis and Squash Club - A premier tennis and squash club established in 1888, offering excellent facilities, coaching, and a vibrant social scene.',
-  keywords: 'tennis club, squash club, Grafton, tennis coaching, squash coaching, tennis courts, squash courts',
+  title: 'Bookham Kitchens | Bespoke Kitchen Design and Installation',
+  description: 'Bookham Kitchens offers bespoke kitchen design, installation and renovation services in Surrey. Family-run business with over 20 years of experience in creating beautiful, functional kitchens.',
+  keywords: 'bespoke kitchens, kitchen design, kitchen installation, fitted kitchens, kitchen renovation, Surrey, Bookham, Leatherhead',
 };
 
 export default function RootLayout({
@@ -25,9 +32,8 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
       </head>
-      <body className={`${inter.variable} ${playfair.variable}`}>
+      <body className={`${montserrat.variable} ${playfair.variable} font-sans`}>
         <div className="flex flex-col min-h-screen">
           <Header />
           <main className="flex-grow">
