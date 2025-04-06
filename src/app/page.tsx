@@ -153,9 +153,10 @@ export default function Home() {
                 >
                   <Link 
                     href="/portfolio" 
-                    className="group bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white px-8 py-4 rounded-md font-medium text-lg transition-all duration-300"
+                    className="group bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white px-8 py-4 rounded-md font-medium text-lg transition-all duration-300 flex items-center"
                   >
                     View Our Work
+                    <FaArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
                   </Link>
                 </motion.div>
               </div>
@@ -389,50 +390,50 @@ export default function Home() {
             {/* Step 1 */}
             <FadeIn delay={0.1} direction="up">
               <div className="relative">
-                <div className="absolute top-0 left-4 w-12 h-12 rounded-full bg-accent text-primary font-bold text-xl flex items-center justify-center z-10">1</div>
-                <div className="pt-8 px-6 pb-6 bg-light rounded-lg shadow-custom border-t-4 border-accent">
+                <div className="absolute -top-6 left-4 w-12 h-12 rounded-full bg-accent text-primary font-bold text-xl flex items-center justify-center z-10">1</div>
+                <div className="pt-10 px-6 pb-6 bg-light rounded-lg shadow-custom border-t-4 border-accent">
                   <h3 className="text-xl font-bold text-primary mb-3 font-serif">Consultation</h3>
                   <p className="text-gray-600">
                     We meet to discuss your ideas, needs, and budget, measuring your space and understanding your vision.
                   </p>
                 </div>
-                <div className="hidden lg:block absolute top-6 right-0 h-0.5 w-full bg-accent/30 -z-10"></div>
+                <div className="hidden lg:block absolute top-0 right-0 h-0.5 w-full bg-accent/30 -z-10"></div>
               </div>
             </FadeIn>
             
             {/* Step 2 */}
             <FadeIn delay={0.2} direction="up">
               <div className="relative">
-                <div className="absolute top-0 left-4 w-12 h-12 rounded-full bg-accent text-primary font-bold text-xl flex items-center justify-center z-10">2</div>
-                <div className="pt-8 px-6 pb-6 bg-light rounded-lg shadow-custom border-t-4 border-accent">
+                <div className="absolute -top-6 left-4 w-12 h-12 rounded-full bg-accent text-primary font-bold text-xl flex items-center justify-center z-10">2</div>
+                <div className="pt-10 px-6 pb-6 bg-light rounded-lg shadow-custom border-t-4 border-accent">
                   <h3 className="text-xl font-bold text-primary mb-3 font-serif">Design</h3>
                   <p className="text-gray-600">
                     Our designers create detailed plans and 3D renderings of your kitchen for your approval.
                   </p>
                 </div>
-                <div className="hidden lg:block absolute top-6 right-0 h-0.5 w-full bg-accent/30 -z-10"></div>
+                <div className="hidden lg:block absolute top-0 right-0 h-0.5 w-full bg-accent/30 -z-10"></div>
               </div>
             </FadeIn>
             
             {/* Step 3 */}
             <FadeIn delay={0.3} direction="up">
               <div className="relative">
-                <div className="absolute top-0 left-4 w-12 h-12 rounded-full bg-accent text-primary font-bold text-xl flex items-center justify-center z-10">3</div>
-                <div className="pt-8 px-6 pb-6 bg-light rounded-lg shadow-custom border-t-4 border-accent">
+                <div className="absolute -top-6 left-4 w-12 h-12 rounded-full bg-accent text-primary font-bold text-xl flex items-center justify-center z-10">3</div>
+                <div className="pt-10 px-6 pb-6 bg-light rounded-lg shadow-custom border-t-4 border-accent">
                   <h3 className="text-xl font-bold text-primary mb-3 font-serif">Production</h3>
                   <p className="text-gray-600">
                     Once designs are approved, our craftsmen begin manufacturing your bespoke cabinets and components.
                   </p>
                 </div>
-                <div className="hidden lg:block absolute top-6 right-0 h-0.5 w-full bg-accent/30 -z-10"></div>
+                <div className="hidden lg:block absolute top-0 right-0 h-0.5 w-full bg-accent/30 -z-10"></div>
               </div>
             </FadeIn>
             
             {/* Step 4 */}
             <FadeIn delay={0.4} direction="up">
               <div className="relative">
-                <div className="absolute top-0 left-4 w-12 h-12 rounded-full bg-accent text-primary font-bold text-xl flex items-center justify-center z-10">4</div>
-                <div className="pt-8 px-6 pb-6 bg-light rounded-lg shadow-custom border-t-4 border-accent">
+                <div className="absolute -top-6 left-4 w-12 h-12 rounded-full bg-accent text-primary font-bold text-xl flex items-center justify-center z-10">4</div>
+                <div className="pt-10 px-6 pb-6 bg-light rounded-lg shadow-custom border-t-4 border-accent">
                   <h3 className="text-xl font-bold text-primary mb-3 font-serif">Installation</h3>
                   <p className="text-gray-600">
                     Our experienced team installs your new kitchen with precision and care, ensuring perfect results.

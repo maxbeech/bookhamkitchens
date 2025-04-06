@@ -1,6 +1,7 @@
 'use client';
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaBars, FaTimes, FaPhone, FaEnvelope } from 'react-icons/fa';
@@ -99,15 +100,20 @@ export default function Header() {
           <div className="flex justify-between items-center">
             {/* Logo */}
             <Link href="/" className="flex items-center">
-              <span className="text-primary font-bold text-2xl md:text-3xl font-serif tracking-tight">
-                Bookham Kitchens
-              </span>
+              <Image
+                src="/images/logo.png"
+                alt="Bookham Kitchens Logo"
+                width={180}
+                height={50}
+                className="h-auto"
+                priority
+              />
             </Link>
 
             {/* Desktop Navigation */}
             <nav className="hidden lg:block">
-              <ul className="flex items-center space-x-1">
-                {navItems.map((item) => (
+              <ul className="flex items-center space-x-6">
+                {navItems.slice(1).map((item) => (
                   <li key={item.name} className="relative group">
                     {item.subItems ? (
                       <>
@@ -182,7 +188,7 @@ export default function Header() {
                 <li>
                   <Link 
                     href="/contact"
-                    className="ml-2 px-4 py-2 bg-primary text-white rounded hover:bg-primary-700 transition-colors text-sm font-medium"
+                    className="ml-2 px-4 py-2 bg-primary text-white rounded hover:bg-primary-700 transition-colors text-sm font-medium whitespace-nowrap"
                   >
                     Get a Quote
                   </Link>
@@ -205,7 +211,7 @@ export default function Header() {
           </div>
         </div>
 
-        {/* Mobile navigation */}
+        {/* Mobile navigation - update to match desktop changes */}
         <AnimatePresence>
           {mobileMenuOpen && (
             <motion.div 
@@ -216,7 +222,8 @@ export default function Header() {
               transition={{ duration: 0.3 }}
             >
               <div className="container mx-auto px-4 py-3 space-y-1">
-                {navItems.map((item) => (
+                {/* Start mobile navigation from index 1 to skip the redundant Home link */}
+                {navItems.slice(1).map((item) => (
                   <div key={item.name}>
                     {item.subItems ? (
                       <>
@@ -248,6 +255,7 @@ export default function Header() {
                                   {subItem.name}
                                 </Link>
                               ))}
+                              
                             </motion.div>
                           )}
                         </AnimatePresence>
